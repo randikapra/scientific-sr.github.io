@@ -1,0 +1,18 @@
+{
+  "initial_weights": {
+    "adv": 100.0,
+    "perc": 2.0,
+    "grad": 400.0,
+    "second_grad": 150.0,
+    "struct": 300.0,
+    "aux": 550.0
+  },
+  "final_weights": {
+    "adv": 80.0,
+    "perc": 1.5,
+    "grad": 300.0,
+    "second_grad": 100.0,
+    "struct": 300.0,
+    "aux": 600.0
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "base_directories": {
+      "dataset": "../data",
+      "output": "../data"
+    },
+    "directories": {
+      "train_HR": "/data/train_HR",
+      "train_LR": "/data/train_LR_bicubic/X4",
+      "valid_HR": "/data/valid_HR",
+      "valid_LR": "/data/valid_LR_bicubic/X4",
+      "test_LR": "/data/test_LR_bicubic/X4"
+    },
+    "lmdb_paths": {
+      "train_HR": "../data/lmdb/train_HR.lmdb",
+      "train_LR": "../data/lmdb/train_LR.lmdb",
+      "valid_HR": "../data/lmdb/valid_HR.lmdb",
+      "valid_LR": "../data/lmdb/valid_LR.lmdb",
+      "test_LR": "../data/lmdb/test_LR.lmdb"
+    },
+    "target_sizes": {
+      "HR": [1024, 768],
+      "LR": [256, 192]
+    },
+    "target_shapes": {
+      "HR": [3, 768, 1024],
+      "LR": [3, 192, 256]
+    },
+    "save_paths": {
+      "train_HR": "../data/decode_images/train_hr_sample.jpg",
+      "train_LR": "../data/decode_images/train_lr_sample.jpg",
+      "valid_HR": "../data/decode_images/valid_hr_sample.jpg",
+      "valid_LR": "../data/decode_images/valid_lr_sample.jpg",
+      "test_LR": "../decode_images/test_lr_sample.jpg"
+    }
+  }
+  

@@ -1,0 +1,33 @@
+{
+    "train_hr_path": "../data/A1/train_HR",
+    "train_lr_path": "../data/A1/train_LR",
+    "valid_hr_path": "../data/A1/valid_HR",
+    "valid_lr_path": "../data/A1/valid_LR",
+    "target_size_hr": [
+        1024,
+        768
+    ],
+    "target_size_lr": [
+        256,
+        192
+    ],
+    "batch_size": 1,
+    "generator_model_path": "../models/pretrained_generator",
+    "generator_save_path": "../models/generator",
+    "encoder_save_path": "../models/encoder",
+    "save_path": "../experiment/train_generated_images",
+    "log_path": "../experiment/logs",
+    "model_save_path": "../models/generator",
+    "vgg_input_shape": [
+        768,
+        1024,
+        3
+    ],
+    "learning_rates": {
+        "generator": 0.0001,
+        "discriminator": 0.0001
+    },
+    "epochs": 200,
+    "generator_steps": 10,
+    "save_interval": 10
+}
